@@ -9,6 +9,8 @@ import Estimate from './components/Estimate/Estimate'
 import AboutMe from './components/AboutMe/AboutMe'
 import Testimonial from './components/Testimonial/Testimonial'
 import Work from './components/Works/Work'
+import NewsLetter from './components/NewsLetter/NewsLetter'
+import Footer from './components/Footer/Footer'
 
 function App() {
 
@@ -25,6 +27,8 @@ function App() {
       <AboutMe />
       <Testimonial />
       <Work />
+      <NewsLetter />
+      <Footer />
     </>
   )
 }

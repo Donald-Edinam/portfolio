@@ -1,0 +1,14 @@
+.h2-overlay {
+    position: absolute;
+    left: 33%;
+    margin-bottom: 20px;
+    font-size: 40px;
+    width: 500px;
+    font-weight: 900;
+}
+
+.img-overlay {
+    filter: grayscale(1);
+    position: relative;
+    z-index: -1;
+}
