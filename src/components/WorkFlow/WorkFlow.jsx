@@ -1,5 +1,7 @@
 import React from 'react'
 import "./workflow.css"
+import  Amico from "../../../src/assets/amico.svg"
+
 
 const WorkFlow = () => {
   return (
@@ -22,7 +24,9 @@ const WorkFlow = () => {
                 I use the latest technology stacks
             </h1>
           </div>
-          <div className="col-md-6 themed-grid-col">.col-md-6</div>
+          <div className="col-md-6 themed-grid-col">
+            <img src={Amico} alt="" className="img-fluid" />
+          </div>
         </div>
       </div>
       <div className="col-md-4 themed-grid-col">
