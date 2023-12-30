@@ -1,10 +1,11 @@
 import React from 'react'
 import EstimateCard from './EstimateCard'
+import './estimate.css'
 
 const Estimate = () => {
   return (
       <div>
-          <div className="bg-dark text-secondary px-4 py-5 text-center">
+          <div className="bg-secondary text-dark px-4 py-5 text-center">
               <div className="py-5">
                   <h1 className="display-5 fw-bold text-white">Check this Out!</h1>
                   <div className="col-lg-6 mx-auto">
@@ -14,7 +15,7 @@ const Estimate = () => {
                           won't make any profit? We've helped many to be in the other 1%.
                       </h3>
                       <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                          <button type="button" className="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">I can help you out</button>
+                          <button type="button" className="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Let's Talk</button>
                       </div>
                   </div>
               </div>

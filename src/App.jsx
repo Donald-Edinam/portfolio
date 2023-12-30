@@ -20,14 +20,11 @@ function App() {
         <Navbar />
         <Header />
       </div>
-      <FeedSection />
       <Purpose />
       <WorkFlow />
-      <Estimate />
       <AboutMe />
       <Testimonial />
       <Work />
-      <NewsLetter />
       <Footer />
     </>
   )

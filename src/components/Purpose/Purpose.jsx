@@ -11,7 +11,8 @@ const Purpose = () => {
                     <div className="col-10 col-sm-8 col-lg-5">
                         <img
                             src="../../src/assets/1.png"
-                            className={`d-block mx-lg-auto img-fluid ${isWideScreen ? "img-overlay" : ""}`}
+                            // className={`d-block mx-lg-auto img-fluid ${isWideScreen ? "img-overlay" : ""}`}
+                            className={`d-block mx-lg-auto img-fluid`}
                             alt="Bootstrap Themes"
                             width="100%"
                             height="105"

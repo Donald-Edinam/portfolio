@@ -19,14 +19,14 @@ const WorkFlow = () => {
         <div className="row">
           <div className="col-md-6 themed-grid-col">
             <h1>
-                I use the latest technologies In my WorkFlow
+                I use the latest technology stacks
             </h1>
           </div>
           <div className="col-md-6 themed-grid-col">.col-md-6</div>
         </div>
       </div>
       <div className="col-md-4 themed-grid-col">
-        <p className="lead">
+        <p className="lead small-txt">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
             Laudantium ex quis debitis temporibus pariatur. 
             Perspiciatis, excepturi eligendi? Voluptatum, quos assumenda?

@@ -2,3 +2,9 @@ li{
     list-style: none;
     text-align: left;
 }
+
+.small-txt{
+    font-size: 12px;
+    max-width: 310px;
+    font-weight: 700;
+}
