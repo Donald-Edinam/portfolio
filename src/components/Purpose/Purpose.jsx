@@ -1,5 +1,6 @@
 import React from "react";
 import "./purpose.css";
+import ImageRight from '../../assets/1.png'
 
 const Purpose = () => {
     const isWideScreen = window.screen.width > 996;
@@ -10,7 +11,7 @@ const Purpose = () => {
                 <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
                     <div className="col-10 col-sm-8 col-lg-5">
                         <img
-                            src="../../src/assets/1.png"
+                            src={ImageRight}
                             // className={`d-block mx-lg-auto img-fluid ${isWideScreen ? "img-overlay" : ""}`}
                             className={`d-block mx-lg-auto img-fluid`}
                             alt="Bootstrap Themes"

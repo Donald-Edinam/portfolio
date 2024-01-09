@@ -1,4 +1,5 @@
 import React from 'react'
+import Avatar from '../../assets/avatar.jpg'
 
 const Header = () => {
   return (
@@ -6,7 +7,7 @@ const Header = () => {
     <div className="container col-xxl-8 px-4 py-5">
         <div className="row flex-lg-row align-items-center g-5 py-5">
         <div className="col-10 col-sm-8 col-lg-6">
-            <img src="bootstrap-themes.png" className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy"/>
+            <img src={Avatar} className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy"/>
         </div>
         <div className="col-lg-6">
             <h6>HI THERE, I'M:</h6>

@@ -1,4 +1,5 @@
 import React from "react";
+import Pic1 from '../../assets/pic1.jpg'
 
 const AboutMe = () => {
     return (
@@ -6,7 +7,7 @@ const AboutMe = () => {
             <div className="container col-xxl-8 px-4 py-5">
                 <div className="row flex-lg-row align-items-center g-5 py-5">
                     <div className="col-10 col-sm-8 col-lg-6">
-                        <img src="bootstrap-themes.png" className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" loading="lazy" width="700" height="500"/>
+                        <img src={Pic1} className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" loading="lazy" width="700" height="500"/>
                     </div>
                     <div className="col-lg-6">
                         <h6>ABOUT ME</h6>
