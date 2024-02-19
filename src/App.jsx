@@ -14,18 +14,20 @@ import Footer from './components/Footer/Footer'
 import ThemeSwitch from './components/ThemeSwitch'
 import Contact from './components/Contact/Contact'
 
+import "../src/components/fonts/acorn.woff" 
+
 function App() {
 
   return (
     <>
-      <div className="wrap">
+      <div className="wrap rand ">
         {/* <ThemeSwitch /> */}
         <Navbar />
         <Header />
       </div>
+      <AboutMe />
       <Purpose />
       <WorkFlow />
-      <AboutMe />
       {/* <Testimonial /> */}
       <Work />
       <Contact />

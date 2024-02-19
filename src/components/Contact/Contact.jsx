@@ -7,7 +7,7 @@ export default function Contact(){
                 <h1>
                     Let's work together on your next project
                 </h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, nesciunt?</p>
+                <p className="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, nesciunt?</p>
             </div>
             <div className="col-md-4">
                 <button className="btn btn-secondary">Contact Me</button>

@@ -1,10 +1,29 @@
 import React from 'react'
 import Avatar from '../../assets/avatar.jpg'
+import { Button } from '../ind_components/Button'
+import { MainBtn } from '../ind_components/MainBtn'
+
+import "../fonts/acorn.woff" 
 
 const Header = () => {
   return (
     <>
-    <div className="container col-xxl-8 px-4 py-5">
+
+      <div class="px-4 py-5 my-5 text-center ht-100">
+        {/* <img class="d-block mx-auto mb-4" src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57" /> */}
+        <h1 class="display-6 text-light pad-top font-fm">Hi, I'm Donald Edinam</h1>
+        <h1 class="display-5 text-light fw-bold font-fm">A Frontend Developer </h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4 text-light">
+          I'm passionate about crafting experiences that are engaging, accessible, and user-centric.
+          </p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <button type="button" class="btn btn-primary px-4 gap-3">Let's Talk Buusiness</button>
+          </div>
+        </div>
+      </div>
+
+      {/* <div className="container col-xxl-8 px-4 py-5">
         <div className="row flex-lg-row align-items-center g-5 py-5">
         <div className="col-10 col-sm-8 col-lg-6">
             <img src={Avatar} className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy"/>
@@ -20,7 +39,7 @@ const Header = () => {
             </div>
         </div>
         </div>
-  </div>
+  </div> */}
     </>
   )
 }
